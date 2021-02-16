@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    // ESLint - Integrates ESLint JavaScript into VS Code.
+    "dbaeumer.vscode-eslint",
+  ]
+}
