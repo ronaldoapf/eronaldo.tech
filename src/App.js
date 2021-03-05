@@ -1,10 +1,17 @@
 import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import HomePage from './pages/Home'
 
 function App () {
   return (
-    <h1>
-      Testando
-    </h1>
+   <BrowserRouter>
+    <Switch>
+      <Route path="/" exact>
+        <HomePage />
+      </Route>
+    </Switch>
+   </BrowserRouter>
   )
 }
 
