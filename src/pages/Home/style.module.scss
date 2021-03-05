@@ -1,0 +1,13 @@
+.homeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.figure {
+    margin-top: 40px;
+    img {
+        width: 200px;
+        border-radius: 100%;
+    }   
+}

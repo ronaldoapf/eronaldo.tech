@@ -1,0 +1,42 @@
+.socialNavbarContainer{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	ul{
+		display: flex;
+		align-items: center;
+		list-style: none;
+		
+		li{
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			margin-right: 10px;
+
+			figure {
+				width: 26px;
+				height: 26px;
+			}
+		}
+	}
+
+	a{
+		color: black;
+		text-decoration: none;
+	}
+}
+
+@media(min-width: 1024px){
+	.socialNavbarContainer{
+		ul{
+			li{
+				figure{
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+	}
+}
